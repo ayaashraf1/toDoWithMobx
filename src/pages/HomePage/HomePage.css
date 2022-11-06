@@ -1,0 +1,11 @@
+#home-body-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:20px;
+}
+.hint{
+  margin-bottom: 20px;
+  color: #d00000;
+}

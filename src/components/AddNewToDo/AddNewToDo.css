@@ -1,0 +1,17 @@
+#add-new-toDo-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 15px;
+    width: 520px;
+}
+/* button{
+    width:100px;
+    height: 33px;
+    background-color: darkblue;
+    color:lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+} */

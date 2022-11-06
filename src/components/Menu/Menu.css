@@ -1,0 +1,21 @@
+#menu-container{
+    list-style: none;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: lightgray;
+    cursor: pointer;
+    margin:0px;
+}
+#menu-container li{
+    padding: 5px 40px 5px 5px;
+}
+#menu-container li a {
+    text-decoration: none;
+    color:lightgray;
+}
+#menu-container li a:hover,#menu-container li a:active{
+    color:purple;
+}

@@ -1,0 +1,40 @@
+.toDo-item{
+    margin-top: 5px;
+    padding: 10px;
+    background: lightgray;
+    width: 498px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    color:darkblue;
+    cursor: pointer;
+}
+.toDo-item input,.toDo-item input:focus{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.toDo-item.done-status{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.toDo-item-actions{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.toDo-item-actions span{
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    color:darkblue;
+    border-radius: 3px;
+    margin-left:3px;
+}
+.toDo-item-actions span img{
+    width:20px;
+    height: 20px;
+}
+.toDo-item-actions span:hover{
+    color:purple;
+}

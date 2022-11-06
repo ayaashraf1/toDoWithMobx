@@ -1,0 +1,11 @@
+#about-project-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#about-project-container p{
+    width:500px;
+    margin-top: 69px;
+    color:darkblue;
+}
